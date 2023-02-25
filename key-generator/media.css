@@ -1,0 +1,48 @@
+@media screen and (max-width :740px) { 
+    
+    body {background:transparent;}
+    img#ph { display:none;}
+img#pt {display: none;}
+img#tv {display: none;}
+img#pc {display: none;}
+img#tb {display: block;}
+}
+#banner-layer {
+    display: none;
+}
+/* ----------------------------------- */
+#register-banner {
+    display: block;
+}
+#register-container {
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 2rem auto;
+    display: flex;
+    box-shadow: 1 1 1 black;}
+
+    #register-form {
+        background-color: #fdfdfd;
+        padding: 2rem;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 10px;
+        align-items: stretch;
+        justify-content: center;
+        align-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    #register-container {
+        max-width: 100%;
+        min-height: 100vh;
+        margin: 2rem auto;
+        display: flex;
+        box-shadow: 1 1 1 black;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
