@@ -24,7 +24,7 @@ img#tb {display: block;}
     #register-form {
         background-color: #fdfdfd;
         padding: 2rem;
-        width: 80vw;
+        width: 400px;
         display: flex;
         flex-direction: column;
         border-radius: 10px;
